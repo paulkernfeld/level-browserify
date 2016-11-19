@@ -37,6 +37,8 @@ db.put('name', 'Level', function (err) {
 })
 ```
 
+Keep in mind that there are slight differences between LevelDOWN and Level.js. Level-browserify does not try to shim these differences, so make sure to test your code against both LevelDOWN and Level.js.
+
 See **[LevelUP](https://github.com/level/levelup)** and **[LevelDOWN](https://github.com/level/leveldown)**/**[Level.js](https://github.com/maxogden/level.js)** for more details.
 
 <a name="contributing"></a>
